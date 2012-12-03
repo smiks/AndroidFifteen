@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="menuBig">100dip</dimen>
+    <dimen name="menuSmall">50dip</dimen>
+    <dimen name="textNormal">20dip</dimen>
+    <dimen name="textHead">125dip</dimen>
+</resources>

@@ -1,0 +1,115 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:alpha="0.90"
+    android:background="@drawable/bgwood"
+    android:orientation="vertical"
+    android:visibility="visible" >
+
+    <TextView
+        android:id="@+id/igraHead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/igra_head"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textHead" />
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="500dip"
+            android:layout_height="500dip"
+            android:layout_weight="1"
+            android:src="@drawable/board_empty" />
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="125dip"
+            android:layout_height="125dip"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/button_1" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="125dip"
+            android:layout_height="125dip"
+            android:layout_alignBaseline="@+id/b1"
+            android:layout_alignBottom="@+id/b1"
+            android:layout_toRightOf="@+id/b1"
+            android:text="@string/button_2" />
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="125dip"
+            android:layout_height="125dip"
+            android:layout_alignBaseline="@+id/b2"
+            android:layout_alignBottom="@+id/b2"
+            android:layout_toRightOf="@+id/b2"
+            android:text="@string/button_3" />
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="125dip"
+            android:layout_height="125dip"
+            android:layout_below="@+id/b1"
+            android:layout_toLeftOf="@+id/b2"
+            android:text="@string/button_4" />
+
+        <Button
+            android:id="@+id/b5"
+            android:layout_width="125dip"
+            android:layout_height="125dip"
+            android:layout_alignBaseline="@+id/b4"
+            android:layout_alignBottom="@+id/b4"
+            android:layout_toRightOf="@+id/b4"
+            android:text="@string/button_5" />
+
+        <Button
+            android:id="@+id/b6"
+            android:layout_width="125dip"
+            android:layout_height="125dip"
+            android:layout_alignBaseline="@+id/b5"
+            android:layout_alignBottom="@+id/b5"
+            android:layout_alignLeft="@+id/b3"
+            android:text="@string/button_6" />
+
+        <Button
+            android:id="@+id/b7"
+            android:layout_width="125dip"
+            android:layout_height="125dip"
+            android:layout_below="@+id/b4"
+            android:layout_toLeftOf="@+id/b5"
+            android:text="@string/button_7" />
+
+        <Button
+            android:id="@+id/b8"
+            android:layout_width="125dip"
+            android:layout_height="125dip"
+            android:layout_below="@+id/b5"
+            android:layout_toLeftOf="@+id/b6"
+            android:text="@string/button_8" />
+
+        <Button
+            android:id="@+id/b9"
+            android:layout_width="125dip"
+            android:layout_height="125dip"
+            android:layout_alignBaseline="@+id/b8"
+            android:layout_alignBottom="@+id/b8"
+            android:layout_alignLeft="@+id/b6"
+            android:text="@string/button_9"
+            android:visibility="visible" />
+
+    </RelativeLayout>
+
+</LinearLayout>

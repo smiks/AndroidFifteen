@@ -1,0 +1,62 @@
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgwood"
+    android:gravity="center"
+    android:orientation="vertical" xmlns:android="http://schemas.android.com/apk/res/android">
+
+    	<Button
+    	    android:id="@+id/bIgra"
+    	    android:layout_width="500dip"
+    	    android:layout_height="wrap_content"
+    	    android:background="@android:color/transparent"
+    	    android:text="@string/button_igra"
+    	    android:textColor="@color/button_text"
+    	    android:textSize="@dimen/menuBig" />
+
+        <Button
+            android:id="@+id/bNajboljsi"
+            android:layout_width="500dip"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/button_najboljsi"
+            android:textColor="@color/button_text"
+            android:textSize="@dimen/menuSmall" />
+
+        <Button
+            android:id="@+id/bNastavitve"
+            android:layout_width="500dip"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/button_nastavitve"
+            android:textColor="@color/button_text"
+            android:textSize="@dimen/menuSmall" />
+
+        <Button
+            android:id="@+id/bPomoc"
+            android:layout_width="500dip"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/button_pomoc"
+            android:textColor="@color/button_text"
+            android:textSize="@dimen/menuSmall" />
+
+        <Button
+            android:id="@+id/bVizitka"
+            android:layout_width="500dip"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/button_vizitka"
+            android:textColor="@color/button_text"
+            android:textSize="@dimen/menuSmall" />
+
+        <Button
+            android:id="@+id/bIzhod"
+            android:layout_width="500dip"
+            android:layout_height="wrap_content"
+            android:background="@android:color/transparent"
+            android:text="@string/button_izhod"
+            android:textColor="@color/button_text"
+            android:textSize="@dimen/menuSmall" />
+   
+</LinearLayout>

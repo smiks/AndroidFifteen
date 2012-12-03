@@ -1,0 +1,18 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/menu_novaIgra"
+        android:title="@string/menu_novaIgra"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+    <item android:id="@+id/menu_shrani"
+        android:title="@string/menu_shrani"
+        android:orderInCategory="101"
+        android:showAsAction="never" />
+    <item android:id="@+id/menu_nastavitve"
+        android:title="@string/menu_nastavitve"
+        android:orderInCategory="102"
+        android:showAsAction="never" />
+    <item android:id="@+id/menu_pomoc"
+        android:title="@string/menu_pomoc"
+        android:orderInCategory="103"
+        android:showAsAction="never" />
+</menu>
