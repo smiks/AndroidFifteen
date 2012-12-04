@@ -1,2 +1,2 @@
-alpha version
-still under construction
+Working version
+v1.0
