@@ -49,14 +49,5 @@
             android:text="@string/button_vizitka"
             android:textColor="@color/button_text"
             android:textSize="@dimen/menuSmall" />
-
-        <Button
-            android:id="@+id/bIzhod"
-            android:layout_width="500dip"
-            android:layout_height="wrap_content"
-            android:background="@android:color/transparent"
-            android:text="@string/button_izhod"
-            android:textColor="@color/button_text"
-            android:textSize="@dimen/menuSmall" />
    
 </LinearLayout>

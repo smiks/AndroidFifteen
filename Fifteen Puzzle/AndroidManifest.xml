@@ -4,7 +4,7 @@
     android:versionName="1.0" >
 
     <uses-sdk
-        android:minSdkVersion="8"
+        android:minSdkVersion="16"
         android:targetSdkVersion="15" />
 
     <application
@@ -42,8 +42,10 @@
         </activity>
         <activity
             android:name=".Igra"
+            android:configChanges="orientation|screenSize"
             android:label="@string/title_activity_igra" >
         </activity>
+        <service android:enabled="true" android:name=".Glasba" />
     </application>
 
 </manifest>

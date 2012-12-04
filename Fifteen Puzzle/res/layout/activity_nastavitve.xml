@@ -1,109 +1,51 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bgwood"
     android:orientation="vertical" >
-
+
     <TextView
         android:id="@+id/tvNastavitveHead"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:gravity="center"
         android:text="@string/nastavitve_head"
         android:textColor="@color/black"
         android:textSize="@dimen/textHead" />
-
-    <TextView
-        android:id="@+id/tvNastavitve1"
-        android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="24dp"
-        android:text="@string/text_velikost" 
-        android:textAppearance="?android:attr/textAppearanceLarge" />
-
-    <RadioGroup
-        android:id="@+id/radio_group1"
-        android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"       
-        android:orientation="vertical" >
-
-        <RadioButton
-            android:id="@+id/rb3x3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"            
-            android:text="@string/option_3x3" />
-
-        <RadioButton
-            android:id="@+id/rb4x4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"          
-            android:text="@string/option_4x4" />
-    </RadioGroup>
-	
-    <View
-        android:layout_width="300dip"
-        android:layout_height="1dp"
-        android:layout_gravity="center"
-        android:background="@android:color/black" />
-    
-    <TextView
-        android:id="@+id/tvNastavitev2"
-        android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/text_StevilkeSlika"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
-    
-    <RadioGroup
-        android:id="@+id/radio_group2"
-        android:gravity="center"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"       
-        android:orientation="vertical" >
-
-        <RadioButton
-            android:id="@+id/rbSlika"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"            
-            android:text="@string/text_slika" />
-
-        <RadioButton
-            android:id="@+id/rbStevilke"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"          
-            android:text="@string/text_stevilke" />
-    </RadioGroup>
-    
-    <View
-        android:layout_width="300dip"
-        android:layout_height="1dp"
-        android:layout_gravity="center"
-        android:background="@android:color/black" />
-
+
     <CheckBox
         android:id="@+id/checkBox1"
-        android:gravity="center"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        
-        android:text="@string/text_zvok" />
-
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="@string/emptyText" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="@string/text_zvok"
+        android:textSize="@dimen/textNormal" />
+
     <Button
         android:id="@+id/nast_shrani"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:background="@android:color/transparent"       
-        android:text="@string/nastavitve_shrani" 
-        android:textColor="@color/button_text"/>
-
+        android:background="@android:color/transparent"
+        android:text="@string/nastavitve_shrani"
+        android:textColor="@color/button_text" />
+
     <Button
         android:id="@+id/bNazaj2"
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_gravity="center"
         android:background="@android:color/transparent"
         android:gravity="center"
         android:text="@string/button_nazaj"

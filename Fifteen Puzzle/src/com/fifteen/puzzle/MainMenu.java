@@ -19,13 +19,12 @@ public class MainMenu extends Activity implements OnClickListener {
         setContentView(R.layout.activity_main_menu);
         
         
-        //nastavitev fonta na gumbe
+        //nastavitev fonta za gumbe
         Typeface tf = Typeface.createFromAsset(getAssets(),
                 "fonts/backlash.ttf");
         Button bIgra = (Button) findViewById(R.id.bIgra);
         bIgra.setTypeface(tf);
-        Button bIzhod = (Button) findViewById(R.id.bIzhod);
-        bIzhod.setTypeface(tf);
+        
         Button bNajboljsi = (Button) findViewById(R.id.bNajboljsi);
         bNajboljsi.setTypeface(tf);
         Button bNastavitve = (Button) findViewById(R.id.bNastavitve);
@@ -36,7 +35,7 @@ public class MainMenu extends Activity implements OnClickListener {
         bVizitka.setTypeface(tf);
         
         bIgra.setOnClickListener(this);
-        bIzhod.setOnClickListener(this);
+        
         bNajboljsi.setOnClickListener(this);
         bNastavitve.setOnClickListener(this);
         bPomoc.setOnClickListener(this);
@@ -55,11 +54,7 @@ public class MainMenu extends Activity implements OnClickListener {
 		case R.id.bIgra:
 			Intent iIgra = new Intent(this, Igra.class);
 			startActivity(iIgra);
-			break;
-		case R.id.bIzhod:
-			this.finish(); //to sicer ne dela prow samo smi zdi tko in tko nesmiselno upeljevat "Izhod" gumba v androidu. Ni mi jasno
-			//zakaj je rekla asistentka nej to damo notr. Itak maš home button
-			break;
+			break;		
 		case R.id.bNajboljsi:
 			Intent iNajboljsi = new Intent(this, NajboljsiCasi.class);
 			startActivity(iNajboljsi);

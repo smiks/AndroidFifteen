@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
 import android.graphics.Typeface;
-import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
@@ -27,15 +26,9 @@ public class Pomoc extends Activity implements OnClickListener{
         tv1.setTypeface(tf);
         tv2.setTypeface(tf);
         
-    }
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.activity_pomoc, menu);
-        return true;
+    }       
         
-        
-    }
+    
 
 	public void onClick(View v) {
 		// TODO Auto-generated method stub

@@ -9,16 +9,16 @@
     <string name="button_nastavitve">Nastavitve</string>
     <string name="button_pomoc">Pomoc</string>
     <string name="button_vizitka">Vizitka</string>
-    <string name="button_najboljsi">Najbljsi casi</string>
+    <string name="button_najboljsi">Top 3</string>
     <string name="button_izhod">Izhod</string>
     <string name="title_activity_vizitka">Vizitka</string>
     <string name="vizitka_head">Vizitka</string>
     <string name="vizitka_text">        \n\n\n
         Ta aplikacija je nastala v okviru predmeta EMP\n
         Fakulteta za racunalništvo in informatiko, Univerza v Ljubljani\n
-        Avtorja: Sandi Mikuz in Marko Fornazaric\n
+        Avtorja: Marko Fornazaric in Sandi Mikus\n
         Ljubljana, 2012\n\n
-        Info: blabla@gmail.com                	</string>
+        Version 1.0                	</string>
     <string name="title_activity_nastavitve">Nastavitve</string>
     <string name="button_nazaj">Nazaj</string>
     <string name="nastavitve_head">Nastavitve</string>
@@ -29,17 +29,17 @@
     <string name="text_slika">Slika</string>
     <string name="text_stevilke">Stevilke</string>
     <string name="text_zvok">Zvok</string>
+    <string name="emptyText"></string>
     <string name="title_activity_pomoc">Pomoc</string>
     <string name="pomoc_head">Pomoc</string>
+    <string name="konecText">Nova igra?</string>
     <string name="text_pomoc">        Igra Fifteen je zelo preprosta. Njen cilj je,\n
-        da postavis stevilke v polju po vrsti od 1 do 15\n
+        da postavis stevilke v polju po vrsti od 1 do 9\n
         tako da je 1 v zgornjem levem kotu, dvojka desno od nje\n
         itd. Premikas se tako, da kliknes na katerokoli ploscico, \n
-        ki ima ob sebi prazno polje.\n
-        Namesto stevilk lahko v nastavitvah izberes, da se bo prikazala\n
-        pomesana slika.\n       	</string>
-    <string name="title_activity_najboljsi_casi">Najboljsi Casi</string>
-    <string name="najboljsiCasi_head">Najboljsi Casi</string>
+        ki ima ob sebi prazno polje.\n       	</string>
+    <string name="title_activity_najboljsi_casi">Top 3</string>
+    <string name="najboljsiCasi_head">Top 3</string>
     <string name="menu_pocisti">Počisti seznam</string>
     <string name="title_activity_igra">Igra</string>
     <string name="igra_head">Igra - Fifteen</string>
@@ -57,8 +57,6 @@
     <string name="button_6">6</string>
     <string name="button_7">7</string>
     <string name="button_8">8</string>
-    <string name="button_9">9</string>
-    
-    
+    <string name="button_9">9</string>    
 
 </resources>
